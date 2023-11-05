@@ -1,24 +1,27 @@
-# Classificador de Nível de Heróis
+# Desafio Classificador de Nível de Herói
 
 ## Descrição
 
-O Classificador de Nível de Heróis é um projeto que utiliza conceitos avançados de lógica e estruturas condicionais para determinar o nível de heróis em um cenário específico. Este projeto permite classificar heróis com base em critérios predefinidos e oferece uma ferramenta valiosa para avaliar e comparar suas habilidades e desempenho.
+Neste desafio, você usará variáveis, operadores, laços de repetição e estruturas de decisões para criar um classificador de nível de herói com base em sua experiência (XP). O objetivo é determinar o nível de um herói com base na quantidade de XP que ele possui.
 
-## Recursos
+## Objetivo
 
-- Avaliação avançada de heróis com base em múltiplos critérios.
-- Classificação de heróis em diferentes níveis de acordo com seu desempenho.
-- Personalização de critérios e regras para adaptar o classificador a diferentes cenários.
-- Interface de usuário amigável para inserir dados de heróis e visualizar os resultados.
+O objetivo deste desafio é criar um programa que:
 
-## Como Funciona
+1. Solicita ao usuário o nome do herói e a quantidade de experiência (XP) que ele possui.
 
-O Classificador de Nível de Heróis utiliza uma série de estruturas condicionais para avaliar heróis com base em critérios como força, agilidade, habilidades especiais e muito mais. Os heróis são atribuídos a um nível com base em sua pontuação total em cada critério. O usuário pode personalizar esses critérios e ajustar as regras de classificação conforme necessário.
+2. Utiliza uma estrutura de decisão para classificar o herói com base na XP, seguindo as seguintes regras:
 
-## Pré-requisitos
+   - Se a XP for menor do que 1.000 = Ferro
+   - Se a XP estiver entre 1.001 e 2.000 = Bronze
+   - Se a XP estiver entre 2.001 e 5.000 = Prata
+   - Se a XP estiver entre 6.001 e 7.000 = Ouro
+   - Se a XP estiver entre 7.001 e 8.000 = Platina
+   - Se a XP estiver entre 8.001 e 9.000 = Ascendente
+   - Se a XP estiver entre 9.001 e 10.000 = Imortal
+   - Se a XP for maior ou igual a 10.001 = Radiante
 
-- Conhecimento básico de lógica de programação.
-- Ambiente de desenvolvimento Python configurado.
+3. Exibe a mensagem final: "O Herói de nome {nome} está no nível de {nível}".
 
 ## Como Usar
 
