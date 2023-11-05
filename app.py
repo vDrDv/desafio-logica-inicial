@@ -1,6 +1,10 @@
 import random
 
-heroi = input("Digite onome do seu HEROI: ")
+heroi = input("Digite onome do seu HERÓI: ")
+
+while not heroi:
+    heroi = input("Por favor, digite o nome do seu HERÓI: ")
+
 xp = random.randint(1000, 18001) 
 
 if xp <= 1000:
